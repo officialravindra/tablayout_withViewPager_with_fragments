@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/purple_700"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/officialravindra"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:id="@+id/headerimage"
+
+        android:layout_height="60dp"></ImageView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Premad Infotech"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+        android:layout_height="wrap_content"></TextView>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Destination for all tech Queries"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"></TextView>
+
+
+
+</LinearLayout>
